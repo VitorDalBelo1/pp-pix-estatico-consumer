@@ -1,0 +1,14 @@
+{
+  "e2eId": "1234ABDOASD11231234ABDOASD112312345",
+  "vlPago": 10.02,
+  "vlCbsSegr": 1.02,
+  "vlIbsSegr": 2.03,
+  "docFiscal": "1234567890123456789B123A5678901234567891123412345",
+  "cnpjRaizPspRecInd": "87654321",
+  "cnpjRaizPspRecDir": "12345678",
+  "cnpjRaizPspPag": "87654321",
+  "cnpjRec": "11444777000142",
+  "cnpjCpfPagEfet": "11444777000142",
+  "dtHrPgto": "2026-03-20T10:33:46-03:00",
+  "dtHrLiq": "2026-03-20T10:33:46-03:00"
+}

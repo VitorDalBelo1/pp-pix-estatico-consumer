@@ -1,0 +1,14 @@
+# Broker local para testar sem os Dev Services do Quarkus.
+# Depois de subir: defina kafka.bootstrap.servers=localhost:9092 no application.properties
+services:
+  kafka:
+    image: docker.redpanda.com/redpandadata/redpanda:v24.2.7
+    command:
+      - redpanda
+      - start
+      - --smp=1
+      - --overprovisioned
+      - --kafka-addr=PLAINTEXT://0.0.0.0:9092
+      - --advertise-kafka-addr=PLAINTEXT://localhost:9092
+    ports:
+      - "9092:9092"
